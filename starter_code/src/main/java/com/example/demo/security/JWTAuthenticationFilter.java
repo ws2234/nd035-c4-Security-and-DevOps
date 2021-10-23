@@ -23,12 +23,14 @@ import static com.auth0.jwt.algorithms.Algorithm.HMAC512;
 
 public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilter {
 
-	 private AuthenticationManager authenticationManager;
+	 private final AuthenticationManager authenticationManager;
 
     public JWTAuthenticationFilter(AuthenticationManager authenticationManager) {
         this.authenticationManager = authenticationManager;
     }
-    
+
+    // performs the actual authentication by parsing (also called filtering)
+    // the user credentials
     @Override
     public Authentication attemptAuthentication(HttpServletRequest req,
                                                 HttpServletResponse res) throws AuthenticationException {
@@ -45,7 +47,8 @@ public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilte
     		throw new RuntimeException(e);
     	}
     }
-    
+
+    // called after the user logs in successfully to generate JWT token for user
     @Override
     protected void successfulAuthentication(HttpServletRequest req,
                                             HttpServletResponse res,

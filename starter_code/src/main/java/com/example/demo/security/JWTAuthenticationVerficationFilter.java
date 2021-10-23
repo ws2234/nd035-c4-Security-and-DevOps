@@ -24,7 +24,8 @@ public class JWTAuthenticationVerficationFilter extends BasicAuthenticationFilte
 	public JWTAuthenticationVerficationFilter(AuthenticationManager authManager) {
         super(authManager);
     }
-	
+
+    // used when we have multiple roles and a policy for RBAC
 	@Override
     protected void doFilterInternal(HttpServletRequest req, HttpServletResponse res, FilterChain chain) 
     		throws IOException, ServletException {
@@ -41,6 +42,7 @@ public class JWTAuthenticationVerficationFilter extends BasicAuthenticationFilte
         chain.doFilter(req, res);
     }
 
+    // validates the token read from the authorization header
 	private UsernamePasswordAuthenticationToken getAuthentication(HttpServletRequest req) {
 		String token = req.getHeader(SecurityConstants.HEADER_STRING);
         if (token != null) {
