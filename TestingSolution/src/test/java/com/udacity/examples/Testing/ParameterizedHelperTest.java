@@ -24,19 +24,19 @@ public class ParameterizedHelperTest {
 	
 	
 	
-public ParameterizedHelperTest(String inp, String out) {
+	public ParameterizedHelperTest(String inp, String out) {
 		super();
 		this.inp = inp;
 		this.out = out;
 	}
 
 
-@Parameters
-public static Collection initData() {
-	String empNames[][] = {{"sareeta","sareeta"},{"john","jhn"}};
-	return Arrays.asList(empNames);
-	
-}
+	@Parameters
+	public static Collection initData() {
+		String empNames[][] = {{"sareeta","sareeta"},{"john","jhn"}};
+		return Arrays.asList(empNames);
+
+	}
 	
 	
 	/**
