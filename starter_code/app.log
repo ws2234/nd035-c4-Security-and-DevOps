@@ -134,3 +134,33 @@
 2021-10-31 11:32:55.583  INFO 27636 --- [http-nio-8080-exec-7] c.e.demo.controllers.OrderController     : Successfully submitted order for username: wesley
 2021-10-31 11:33:25.212  INFO 27636 --- [http-nio-8080-exec-8] c.e.demo.controllers.OrderController     : Cart saved successfully
 2021-10-31 11:33:30.134  INFO 27636 --- [http-nio-8080-exec-9] c.e.demo.controllers.OrderController     : Successfully submitted order for username: wesley
+2021-10-31 13:16:20.955  INFO 17824 --- [main] com.example.demo.SareetaApplication      : Starting SareetaApplication on Swaggy with PID 17824 (D:\wesle\Documents\JDND_Course_4\starter_code\target\classes started by wesle in D:\wesle\Documents\JDND_Course_4\starter_code)
+2021-10-31 13:16:20.966  INFO 17824 --- [main] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2021-10-31 13:16:21.650  INFO 17824 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-10-31 13:16:21.731  INFO 17824 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66ms. Found 4 JPA repository interfaces.
+2021-10-31 13:16:22.655  INFO 17824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-31 13:16:22.672  INFO 17824 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-31 13:16:22.672  INFO 17824 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-10-31 13:16:22.821  INFO 17824 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-31 13:16:22.821  INFO 17824 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1788 ms
+2021-10-31 13:16:23.090  INFO 17824 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-31 13:16:23.187  INFO 17824 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.18.Final
+2021-10-31 13:16:23.436  INFO 17824 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-10-31 13:16:23.587  INFO 17824 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-31 13:16:23.787  INFO 17824 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-31 13:16:23.821  INFO 17824 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-10-31 13:16:24.641  INFO 17824 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-31 13:16:24.648  INFO 17824 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-31 13:16:24.975  WARN 17824 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-31 13:16:25.469  INFO 17824 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67cd84f9, org.springframework.security.web.context.SecurityContextPersistenceFilter@29dfc68f, org.springframework.security.web.header.HeaderWriterFilter@4ba402b5, org.springframework.web.filter.CorsFilter@52b891de, org.springframework.security.web.authentication.logout.LogoutFilter@6ee1ddcf, com.example.demo.security.JWTAuthenticationFilter@4ae6451d, com.example.demo.security.JWTAuthenticationVerficationFilter@5f32ab17, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@333a2df2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6d9ee75a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@54530644, org.springframework.security.web.session.SessionManagementFilter@d02c00, org.springframework.security.web.access.ExceptionTranslationFilter@24d0c6a4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@731fae]
+2021-10-31 13:16:25.520  INFO 17824 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-31 13:16:25.690  INFO 17824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-31 13:16:25.699  INFO 17824 --- [main] com.example.demo.SareetaApplication      : Started SareetaApplication in 5.252 seconds (JVM running for 5.768)
+2021-10-31 13:17:49.955  INFO 17824 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-31 13:17:49.955  INFO 17824 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-31 13:17:49.961  INFO 17824 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2021-10-31 13:17:50.059  INFO 17824 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : User name set with wesley
+2021-10-31 13:17:50.169  INFO 17824 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : Password set with password: testing
+2021-10-31 13:18:10.645  INFO 17824 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : Found User with username: wesley
+2021-10-31 13:18:15.237  INFO 17824 --- [http-nio-8080-exec-6] c.e.demo.controllers.OrderController     : Cart saved successfully
+2021-10-31 13:18:19.878  INFO 17824 --- [http-nio-8080-exec-7] c.e.demo.controllers.OrderController     : Successfully submitted order for username: wesley
