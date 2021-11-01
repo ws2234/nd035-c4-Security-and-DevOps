@@ -164,3 +164,34 @@
 2021-10-31 13:18:10.645  INFO 17824 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : Found User with username: wesley
 2021-10-31 13:18:15.237  INFO 17824 --- [http-nio-8080-exec-6] c.e.demo.controllers.OrderController     : Cart saved successfully
 2021-10-31 13:18:19.878  INFO 17824 --- [http-nio-8080-exec-7] c.e.demo.controllers.OrderController     : Successfully submitted order for username: wesley
+2021-10-31 17:58:11.825  WARN 17824 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h44m45s351ms412µs900ns).
+2021-10-31 18:02:47.309  INFO 25936 --- [main] com.example.demo.SareetaApplication      : Starting SareetaApplication on Swaggy with PID 25936 (D:\wesle\Documents\JDND_Course_4\starter_code\target\classes started by wesle in D:\wesle\Documents\JDND_Course_4\starter_code)
+2021-10-31 18:02:47.311  INFO 25936 --- [main] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2021-10-31 18:02:47.744  INFO 25936 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-10-31 18:02:47.799  INFO 25936 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46ms. Found 4 JPA repository interfaces.
+2021-10-31 18:02:48.427  INFO 25936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-31 18:02:48.436  INFO 25936 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-31 18:02:48.436  INFO 25936 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-10-31 18:02:48.537  INFO 25936 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-31 18:02:48.538  INFO 25936 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1182 ms
+2021-10-31 18:02:48.746  INFO 25936 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-31 18:02:48.785  INFO 25936 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.18.Final
+2021-10-31 18:02:48.897  INFO 25936 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-10-31 18:02:48.988  INFO 25936 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-31 18:02:49.110  INFO 25936 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-31 18:02:49.132  INFO 25936 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-10-31 18:02:49.736  INFO 25936 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-31 18:02:49.741  INFO 25936 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-31 18:02:49.999  WARN 25936 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-31 18:02:50.312  INFO 25936 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7af56b26, org.springframework.security.web.context.SecurityContextPersistenceFilter@5d98364c, org.springframework.security.web.header.HeaderWriterFilter@afb7b03, org.springframework.web.filter.CorsFilter@c86c486, org.springframework.security.web.authentication.logout.LogoutFilter@2431050d, com.example.demo.security.JWTAuthenticationFilter@67ceaa9, com.example.demo.security.JWTAuthenticationVerficationFilter@3ea6faf0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1fd35a92, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@574f9e36, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6fdb1a59, org.springframework.security.web.session.SessionManagementFilter@7d483ebe, org.springframework.security.web.access.ExceptionTranslationFilter@3b1137b0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@56554365]
+2021-10-31 18:02:50.348  INFO 25936 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-31 18:02:50.471  INFO 25936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-31 18:02:50.477  INFO 25936 --- [main] com.example.demo.SareetaApplication      : Started SareetaApplication in 3.514 seconds (JVM running for 3.848)
+2021-10-31 18:02:56.943  INFO 25936 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-31 18:02:56.944  INFO 25936 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-31 18:02:56.951  INFO 25936 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2021-10-31 18:02:57.027  INFO 25936 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : User name set with wesley
+2021-10-31 18:02:57.126  INFO 25936 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : Password set with password: testing
+2021-10-31 18:03:13.544  INFO 25936 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : Found User with username: wesley
+2021-10-31 18:03:18.854  INFO 25936 --- [http-nio-8080-exec-6] c.e.demo.controllers.OrderController     : Cart saved successfully
+2021-10-31 18:03:23.558  INFO 25936 --- [http-nio-8080-exec-7] c.e.demo.controllers.OrderController     : Successfully submitted order for username: wesley
